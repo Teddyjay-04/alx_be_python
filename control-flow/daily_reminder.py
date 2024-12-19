@@ -29,9 +29,9 @@ match priority:
         reminder = "Invalid priority level. Please enter high, medium, or low."
 
 # Provide the customized reminder
-print(reminder)
+print(f"Reminder: {reminder}")
 
-# Additional message for completion
+'''# Additional message for completion
 if priority in ["high", "medium", "low"]:
     print("Well done on completing this project! Let the world hear about this milestone achieved.")
-    print("🚀 Click here to tweet! 🚀")
+    print("🚀 Click here to tweet! 🚀")'''
