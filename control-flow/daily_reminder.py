@@ -30,3 +30,8 @@ match priority:
 
 # Provide the customized reminder
 print(reminder)
+
+# Additional message for completion
+if priority in ["high", "medium", "low"]:
+    print("Well done on completing this project! Let the world hear about this milestone achieved.")
+    print("🚀 Click here to tweet! 🚀")
