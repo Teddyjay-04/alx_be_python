@@ -53,10 +53,10 @@ def main():
         # Perform conversion based on the unit
         if unit == "C":
             converted_temp = convert_to_fahrenheit(temperature)
-            print(f"{temperature}°C is {converted_temp:.2f}°F")
+            print(f"{temperature}°C is {converted_temp:}°F")
         elif unit == "F":
             converted_temp = convert_to_celsius(temperature)
-            print(f"{temperature}°F is {converted_temp:.2f}°C")
+            print(f"{temperature}°F is {converted_temp:}°C")
         else:
             print("Invalid unit. Please enter 'C' for Celsius or 'F' for Fahrenheit.")
     except ValueError as e:
